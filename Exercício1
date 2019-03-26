@@ -14,7 +14,7 @@ if ($Primeiro > $Segundo) {
 
 elseif ($Primeiro == $Segundo) {
 
-    print "O dois números são iguais \n";
+    print "Os dois números são iguais \n";
 
 }
 else {
