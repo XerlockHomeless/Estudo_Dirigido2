@@ -1,0 +1,23 @@
+<?php
+
+print "Insira o seu sexo [F/M]: ";
+$Sexo = fgets(STDIN);
+
+if ($Sexo = F) {
+
+	print "Sexo válido, usuário feminino \n"; 
+
+}
+
+elseif ($Sexo = M) {
+
+	print "Sexo válido, usuário masculino \n";
+
+}
+
+else {
+
+	print "sexo inválido, digite novamente:  ";
+	$Sexo = fgets(STDIN);
+
+}
