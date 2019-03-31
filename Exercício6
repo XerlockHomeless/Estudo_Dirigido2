@@ -1,0 +1,34 @@
+<?php
+
+print "Digite o primeiro número: ";
+$Primeiro_Numero = fgets(STDIN);
+
+print "Digite o segundo número: ";
+$Segundo_Numero = fgets(STDIN);
+
+print "Digite o terceiro número: ";
+$Terceiro_Numero = fgets(STDIN);
+
+if ($Primeiro_Numero > $Segundo_Numero and $Primeiro_Numero > $Trimeiro_Numero) {
+
+    print "O primeiro número é o maior";
+
+}
+
+elseif ($Segundo_Numero > $Primeiro_Numero and $Segundo_Numero > $Terceiro_Numero) {
+
+    print "O segundo númeor é o maior";
+
+}
+
+elseif ($Terceiro_Numero > $Primeiro_Numero and $Terceiro_Numero > $Segundo_Numero) {
+
+    print "O terceiro número é o maior";
+
+}
+
+else {
+
+    print "Todos os números são iguais";
+
+}
