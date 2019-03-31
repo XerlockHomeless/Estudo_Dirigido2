@@ -3,19 +3,19 @@
 print "Insira o seu sexo [F/M]: ";
 $Sexo = fgets(STDIN);
 
-if ($Sexo = F) {
+if ($Sexo == F) {
 
 	print "Sexo válido, usuário feminino \n"; 
 
 }
 
-elseif ($Sexo = M) {
+elseif ($Sexo == M) {
 
 	print "Sexo válido, usuário masculino \n";
 
 }
 
-else {
+While ($Sexo =! F or $Sexo =! M) {
 
 	print "sexo inválido, digite novamente:  ";
 	$Sexo = fgets(STDIN);
