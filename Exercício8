@@ -1,0 +1,52 @@
+<?php
+
+print "Digite o primeiro preço: ";
+$Primeiro_Preco = fgets (STDIN);
+
+print "Digite o segundo preço: ";
+$Segundo_Preco = fgets (STDIN);
+
+print "Digite o terceiro preço: ";
+$Terceiro_Preco = fgets (STDIN);
+
+if ($Primeiro_Preco < $Segundo_Preco and $Primeiro_Preco < $Terceiro_Preco) {
+
+    print "Você deveria comprar o primeiro produto \n";
+
+}
+
+elseif ($Segundo_Preco < $Terceiro_Preco and $Segundo_Preco < $Primeiro_Preco) {
+
+    print "Você deveria comprar o segundo produto \n";
+
+}
+
+elseif ($Terceiro_Preco < $Segundo_Preco and $Terceiro_Preco < $Primeiro_Preco) {
+
+    print "Você deveria comprar o terceiro produto \n";
+
+}
+
+elseif ($Primeiro_Preco == $Segundo_Preco and $Primeiro_Preco < $Terceiro_Preco ) {
+
+    print "Você deveria comprar o primeiro ou segundo produto \n";
+
+}
+
+elseif ($Terceiro_Preco == $Segundo_Preco and $Terceiro_Preco < $Primeiro_Preco ) {
+
+    print "Você deveria comprar o segundo ou terceiro produto \n";
+
+}
+
+elseif ($Primeiro_Preco == $Terceiro_Preco and $Primeiro_Preco < $Segundo_Preco) {
+
+    print "Você deveria comprar o primeiro ou terceiro produto \n";
+
+}
+
+elseif ($Primeiro_Preco == $Segundo_Preco and $Primeiro_Preco == $Terceiro_Preco) {
+
+    print "Os três produtos tem o mesmo preço, a escolha é dada pelo usuário \n";
+
+}
