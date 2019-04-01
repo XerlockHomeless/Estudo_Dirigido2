@@ -1,0 +1,76 @@
+<?php
+
+print "Digite o primeiro número: ";
+$Primeiro_Numero = fgets(STDIN);
+
+print "Digite o segundo número: ";
+$Segundo_Numero = fgets(STDIN);
+
+print "Digite o terceiro número: ";
+$Terceiro_Numero = fgets(STDIN);
+
+//Número maior
+
+if ($Primeiro_Numero > $Segundo_Numero and $Primeiro_Numero > $Terceiro_Numero) {
+
+    print "O primeiro número é o maior \n";
+
+}
+
+elseif ($Segundo_Numero > $Primeiro_Numero and $Segundo_Numero > $Terceiro_Numero) {
+
+    print "O segundo númeor é o maior \n";
+
+}
+
+elseif ($Terceiro_Numero > $Primeiro_Numero and $Terceiro_Numero > $Segundo_Numero) {
+
+    print "O terceiro número é o maior \n";
+
+}
+
+elseif ($Primeiro_Numero == $Segundo_Numero and $Primeiro_Numero == $Terceiro_Numero) {
+
+    print "Todos os números são iguais \n";
+
+}
+
+//Número menor
+
+if ($Primeiro_Numero < $Segundo_Numero and $Primeiro_Numero < $Terceiro_Numero) {
+
+    print "O primeiro número é o menor \n";
+
+}
+
+elseif ($Segundo_Numero < $Primeiro_Numero and $Segundo_Numero < $Terceiro_Numero) {
+
+    print "O segundo númeor é o menor \n";
+
+}
+
+elseif ($Terceiro_Numero < $Primeiro_Numero and $Terceiro_Numero < $Segundo_Numero) {
+
+    print "O terceiro número é o menor \n";
+
+}
+
+//Em caso de dois números iguais
+
+if ($Primeiro_Numero == $Segundo_Numero and $Primeiro_Numero != $Terceiro_Numero) {
+
+    print "O primeiro e o segundo números são iguais \n";
+
+}
+
+elseif ($Primeiro_Numero == $Terceiro_Numero and $Primeiro_Numero != $Segundo_Numero) {
+
+    print "O primeiro e o terceiro números são iguais \n";
+
+}
+
+elseif ($Segundo_Numero == $Terceiro_Numero and $Segundo_Numero != $Primeiro_Numero) {
+
+    print "O segundo e o terceiro números são iguais \n";
+
+}
