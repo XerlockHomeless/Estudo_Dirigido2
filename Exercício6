@@ -27,8 +27,8 @@ elseif ($Terceiro_Numero > $Primeiro_Numero and $Terceiro_Numero > $Segundo_Nume
 
 }
 
-else {
+elseif ($Primeiro_Numero == $Segundo_Numero and $Primeiro_Numero == $Terceiro_Numero) {
 
-    print "Todos os números são iguais";
+    print "Todos os números são iguais \n";
 
 }
