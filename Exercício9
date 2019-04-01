@@ -1,0 +1,52 @@
+<?php
+
+print "Digite o primeiro número (não repita números): ";
+$Primeiro_Numero = fgets(STDIN);
+
+print "Digite o segundo número (não repita números): ";
+$Segundo_Numero = fgets(STDIN);
+
+print "Digite o terceiro número (não repita números): ";
+$Terceiro_Numero = fgets(STDIN);
+
+//Primeiro número maior
+
+if ($Primeiro_Numero > $Segundo_Numero and $Segundo_Numero > $Terceiro_Numero) {
+
+    print "$Primeiro_Numero \n" . "$Segundo_Numero \n" . "$Terceiro_Numero \n";
+
+}
+
+elseif ($Primeiro_Numero > $Terceiro_Numero and $Terceiro_Numero > $Segundo_Numero) {
+
+    print "$Primeiro_Numero \n" . "$Terceiro_Numero \n" . "$Segundo_Numero \n";
+
+}
+
+//Segundo número maior
+
+elseif ($Segundo_Numero > $Primeiro_Numero and $Primeiro_Numero > $Terceiro_Numero) {
+
+    print "$Segundo_Numero \n" . "$Primeiro_Numero \n" . "$Terceiro_Numero \n";
+
+}
+
+elseif ($Segundo_Numero > $Terceiro_Numero and $Terceiro_Numero > $Primeiro_Numero) {
+
+    print "$Segundo_Numero \n" . "$Terceiro_Numero \n" . "$Primeiro_Numero \n";
+
+}
+
+//Terceiro número maior
+
+elseif ($Terceiro_Numero > $Primeiro_Numero and $Primeiro_Numero > $Segundo_Numero) {
+
+    print "$Terceiro_Numero \n" . "$Primeiro_Numero \n" . "$Segundo_Numero \n";
+
+}
+
+elseif ($Terceiro_Numero > $Segundo_Numero and $Segundo_Numero > $Primeiro_Numero) {
+
+    print "$Terceiro_Numero \n" . "$Segundo_Numero \n" . "$Primeiro_Numero \n";
+
+}
