@@ -29,127 +29,125 @@ $Numero9 = fgets(STDIN);
 
 print "Digite um número: ";
 $Numero10 = fgets(STDIN);
-1
-1
+
 if ($Numero1%2==0) {
 
     $Par++;
 
 }
 
-elseif($Numero1%2==1) {1
-    1
+if($Numero1%2==1) {
+    
 
-    $Impar--;
+    $Impar++;
 
 }
 
-elseif ($Numero2%2==0) {
+if ($Numero2%2==0) {
 
     $Par++;
 
 }
 
-elseif($Numero2%2==1) {
+if($Numero2%2==1) {
 
-    $Impar--;
+    $Impar++;
 
 }
 
-elseif ($Numero3%2==0) {
+if ($Numero3%2==0) {
 
     $Par++;
 
 }
 
-elseif($Numero3%2==1) {
-    1
-    1
-    $Impar--;
+if($Numero3%2==1) {
+
+    $Impar++;
 
 }
 
-elseif ($Numero4%2==0) {
+if ($Numero4%2==0) {
 
     $Par++;
 
 }
 
-elseif($Numero4%2==1) {
+if($Numero4%2==1) {
 
-    $Impar--;
+    $Impar++;
 
 }
 
-elseif ($Numero5%2==0) {
+if ($Numero5%2==0) {
 
     $Par++;
 
 }
 
-elseif($Numero5%2==1) {
+if($Numero5%2==1) {
 
-    $Impar--;
+    $Impar++;
 
 }
 
-elseif ($Numero6%2==0) {
+if ($Numero6%2==0) {
 
     $Par++;
 
 }
 
-elseif($Numero6%2==1) {
+if($Numero6%2==1) {
 
-    $Impar--;
+    $Impar++;
 
 }
 
-elseif ($Numero7%2==0) {
+if ($Numero7%2==0) {
 
     $Par++;
 
 }
 
-elseif($Numero7%2==1) {
+if($Numero7%2==1) {
 
-    $Impar--;
+    $Impar++;
 
 }
 
-elseif ($Numero8%2==0) {
+if ($Numero8%2==0) {
 
     $Par++;
 
 }
 
-elseif($Numero8%2==1) {
+if($Numero8%2==1) {
 
-    $Impar--;
+    $Impar++;
 
 }
 
-elseif ($Numero9%2==0) {
+if ($Numero9%2==0) {
 
     $Par++;
 
 }
 
-elseif($Numero9%2==1) {
+if($Numero9%2==1) {
 
-    $Impar--;
+    $Impar++;
 
 }
 
-elseif ($Numero10%2==0) {
+if ($Numero10%2==0) {
 
     $Par++;
 
 }
 
-elseif($Numero10%2==1) {
+if($Numero10%2==1) {
 
-    $Impar--;
+    $Impar++;
 
 }
 
