@@ -1,7 +1,7 @@
 <?php
 
 print "Digite um número inteiro menor que 1000: ";
-$Numero = fgets(STDIN);
+$Numero = (int) fgets(STDIN);
 
 if ($Numero >= 1000 or $Numero < 0) {
 
