@@ -21,19 +21,37 @@ $Quinto_Numero = fgets(STDIN);
 
 if ($Primeiro_Numero == $Segundo_Numero or $Primeiro_Numero == $Terceiro_Numero or $Primeiro_Numero == $Quarto_Numero or $Primeiro_Numero == $Quinto_Numero or $Segundo_Numero == $Terceiro_Numero or $Segundo_Numero == $Quarto_Numero or $Segundo_Numero == $Quinto_Numero or $Terceiro_Numero == $Quarto_Numero or $Terceiro_Numero == $Quinto_Numero or $Quarto_Numero == $Quinto_Numero) {
 
-    print "Eu disse para não repetir números.";
+    print "Eu disse para não repetir números. \n";
     exit;
 
 }
 
 if ($Primeiro_Numero > $Segundo_Numero and $Primeiro_Numero > $Terceiro_Numero and $Primeiro_Numero > $Quarto_Numero and $Primeiro_Numero > $Quinto_Numero) {
 
-    print "O primeiro número é o maior.";
+    print "O primeiro número é o maior. \n";
 
 }
 
 elseif ($Segundo_Numero > $Primeiro_Numero and $Segundo_Numero > $Terceiro_Numero and $Segundo_Numero > $Quarto_Numero and $Segundo_Numero > $Quinto_Numero) {
 
-    print "O segundo número é o maior";
+    print "O segundo número é o maior. \n";
+
+}
+
+elseif ($Terceiro_Numero > $Primeiro_Numero and $Terceiro_Numero > $Segundo_Numero and $Terceiro_Numero > $Quarto_Numero and $Terceiro_Numero > $Quinto_Numero) {
+
+    print "O terceiro número é o maior. \n";
+
+}
+
+elseif ($Quarto_Numero > $Primeiro_Numero and $Quarto_Numero > $Segundo_Numero and $Quarto_Numero > $Terceiro_Numero and $Quarto_Numero > $Quinto_Numero) {
+
+    print "O quarto número é o maior. \n";
+
+}
+
+elseif ($Quinto_Numero > $Primeiro_Numero and $Quinto_Numero > $Segundo_Numero and $Quinto_Numero > $Terceiro_Numero and $Quinto_Numero > $Quarto_Numero) {
+
+    print "O quinto número é o maior. \n";
 
 }
