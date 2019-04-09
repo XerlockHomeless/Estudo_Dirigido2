@@ -1,10 +1,10 @@
 <?php
 
 print "Digite a primeira nota: ";
-$Nota1 = fgets(STDIN);
+$Nota1 = (float) fgets(STDIN);
 
 print "Digite a segunda nota: ";
-$Nota2 = fgets(STDIN);
+$Nota2 = (float) fgets(STDIN);
 
     $Media = ($Nota1 + $Nota2)/2;
 
