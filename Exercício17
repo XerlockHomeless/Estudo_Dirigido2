@@ -1,10 +1,10 @@
 <?php
 
 print "Digite a base: ";
-$Base = fgets(STDIN);
+$Base = (float) fgets(STDIN);
 
 print "Digite o expoente: ";
-$Expoente = fgets(STDIN);
+$Expoente = (int) fgets(STDIN);
 
     $Potencia = $Base**$Expoente;
 
