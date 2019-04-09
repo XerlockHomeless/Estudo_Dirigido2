@@ -1,34 +1,34 @@
 <?php
 
 print "Digite um número: ";
-$Numero1 = fgets(STDIN);
+$Numero1 = (float) fgets(STDIN);
 
 print "Digite um número: ";
-$Numero2 = fgets(STDIN);
+$Numero2 = (float) fgets(STDIN);
 
 print "Digite um número: ";
-$Numero3 = fgets(STDIN);
+$Numero3 = (float) fgets(STDIN);
 
 print "Digite um número: ";
-$Numero4 = fgets(STDIN);
+$Numero4 = (float) fgets(STDIN);
 
 print "Digite um número: ";
-$Numero5 = fgets(STDIN);
+$Numero5 = (float) fgets(STDIN);
 
 print "Digite um número: ";
-$Numero6 = fgets(STDIN);
+$Numero6 = (float) fgets(STDIN);
 
 print "Digite um número: ";
-$Numero7 = fgets(STDIN);
+$Numero7 = (float) fgets(STDIN);
 
 print "Digite um número: ";
-$Numero8 = fgets(STDIN);
+$Numero8 = (float) fgets(STDIN);
 
 print "Digite um número: ";
-$Numero9 = fgets(STDIN);
+$Numero9 = (float) fgets(STDIN);
 
 print "Digite um número: ";
-$Numero10 = fgets(STDIN);
+$Numero10 = (float) fgets(STDIN);
 
 if ($Numero1%2==0) {
 
