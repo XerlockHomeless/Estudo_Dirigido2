@@ -17,6 +17,6 @@ elseif ($Letra == "b" or $Letra == "c" or $Letra == "d" or $Letra == "f" or $Let
 
 else {
 
-    print "Isto não é um número ou é um caractere inválido";
+    print "Isto é um número ou é um caractere inválido";
 
 }
