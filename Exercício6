@@ -9,7 +9,7 @@ $Segundo_Numero = fgets(STDIN);
 print "Digite o terceiro número: ";
 $Terceiro_Numero = fgets(STDIN);
 
-if ($Primeiro_Numero > $Segundo_Numero and $Primeiro_Numero > $Trimeiro_Numero) {
+if ($Primeiro_Numero > $Segundo_Numero and $Primeiro_Numero > $Terceiro_Numero) {
 
     print "O primeiro número é o maior";
 
@@ -17,7 +17,7 @@ if ($Primeiro_Numero > $Segundo_Numero and $Primeiro_Numero > $Trimeiro_Numero) 
 
 elseif ($Segundo_Numero > $Primeiro_Numero and $Segundo_Numero > $Terceiro_Numero) {
 
-    print "O segundo númeor é o maior";
+    print "O segundo número é o maior";
 
 }
 
