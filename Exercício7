@@ -45,7 +45,7 @@ if ($Primeiro_Numero < $Segundo_Numero and $Primeiro_Numero < $Terceiro_Numero) 
 
 elseif ($Segundo_Numero < $Primeiro_Numero and $Segundo_Numero < $Terceiro_Numero) {
 
-    print "O segundo númeor é o menor \n";
+    print "O segundo número é o menor \n";
 
 }
 
