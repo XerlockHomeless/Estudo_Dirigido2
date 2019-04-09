@@ -1,19 +1,19 @@
 <?php
 
 print "Digite o primeiro número: ";
-$Primeiro_Numero = fgets(STDIN);
+$Primeiro_Numero = (float) fgets(STDIN);
 
 print "Digite o segundo número: ";
-$Segundo_Numero = fgets(STDIN);
+$Segundo_Numero = (float) fgets(STDIN);
 
 print "Digite o terceiro número: ";
-$Terceiro_Numero = fgets(STDIN);
+$Terceiro_Numero = (float) fgets(STDIN);
 
 print "Digite o quarto número: ";
-$Quarto_Numero = fgets(STDIN);
+$Quarto_Numero = (float) fgets(STDIN);
 
 print "Digite o quinto número: ";
-$Quinto_Numero = fgets(STDIN);
+$Quinto_Numero = (float) fgets(STDIN);
 
  $Soma = $Primeiro_Numero + $Segundo_Numero + $Terceiro_Numero + $Quarto_Numero + $Quinto_Numero;
  $Media = $Soma/5;
