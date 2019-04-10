@@ -36,20 +36,44 @@ while ($Numero_Reserva >= 1) {
 
 }
 
-if ($Numero > 100) {
+if ($Centena != 0 and $Centena != 1) {
 
-    print "$Numero ". '= ' ."$Centena centena(s), $Dezena dezena(s) e $Unidade unidade(s).";
-
-}
-
-elseif ($Numero > 10) {
-
-    print "$Numero ". '= ' ."$Dezena dezena(s) e $Unidade unidade(s).";
+    print "$Numero: $Centena centenas, ";
 
 }
 
-elseif ($Numero > 1) {
+elseif ($Centena == 1) {
 
-    print "$Numero ". '= ' ."$Unidade unidade(s).";
+    print "$Numero: $Centena centena, ";
+
+}
+
+if ($Numero < 10) {
+
+    print "";
+
+}
+
+elseif ($Dezena != 1) {
+
+    print "$Dezena dezenas e ";
+
+}
+
+elseif ($Dezena == 1) {
+
+    print "$Dezena dezena e ";
+
+}
+
+if ($Unidade != 1) {
+
+    print "$Unidade unidades. \n";
+
+}
+
+elseif ($Unidade == 1) {
+
+    print "$Unidade unidade. \n";
 
 }
